@@ -1,0 +1,207 @@
+*{
+	margin:0; padding:0; box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+nav{
+	width:100%;height:15vh;
+	background:rgba(0,0,0,0.5);
+	color:white; display:flex; justify-content: space-between;
+	align-items:center; text-transform:uppercase;
+	position:fixed;
+	flex-wrap:wrap;
+	z-index: 1;
+
+}
+nav .menu{
+	width:40%; 
+	display: flex; justify-content: space-around;
+
+}
+nav .logo{
+	padding-left: 15px;
+}
+
+nav .menu a{
+	width:25%;
+	text-decoration: none; color:white;
+
+}  
+nav .menu a:hover{
+	
+	color:crimson;
+
+}
+ .banner-area{
+
+	background-image:url("../images/cafe.jpg");
+	width:100%;
+	height:100vh;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+}
+.centre{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:white;
+
+ }
+ #about{
+ 	background-color: gray;
+ }
+ #services{
+ 	background: gray;
+ 	background-size: cover;
+ 
+ }
+ #contact{
+ 	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9));
+ 	width:100%;
+ 	margin:auto;
+ 	overflow:hidden;
+ 	background-size:cover;
+ }
+ .contact-form i.fa{
+ 	font-size:22px;
+ 	padding:3%;
+ 	margin:2%;
+ 	border-radius: 80%;
+ 	cursor:pointer;
+ 	border:2px solid rgba(190,190,190);
+ 	background-color:none;
+ 	color:rgba(190,190,190);
+ }
+ .contact-form i.fa:hover{
+ 	cursor:pointer;
+ 	border:2px solid crimson;
+ 	color:#fff;
+ }
+ .contact-form{
+ 	display:grid;
+ 	grid-template-columns: auto auto;
+ }
+ .form-info{
+ 	font-size:16px;
+ 	font-style: italic;
+ 	color:#fff;
+ 	letter-spacing: 2px;
+ }
+ input{
+ 	padding:10px;
+ 	margin:10px;
+ 	width:70%;
+ 	background-color: rgba(136,133,133,0.5);
+ 	color:#fff;
+ 	border:none;
+ 	outline:none;
+ }
+ input::placeholder{
+ 	color:#fff;
+ }
+ textarea{
+ 	padding:10px;
+ 	margin:10px;
+ 	width:70%;
+ 	background-color: rgba(136,133,133,0.5);
+ 	color:#fff;
+ 	border:none;
+ 	outline:none;
+ }
+textarea::placeholder{
+ 	color:#fff;
+ }
+ .submit{
+ 	width:40%;
+ 	background:none;
+ 	padding: 4px;
+ 	outline:none;
+ 	font-weight:bold;
+ 	letter-spacing: 2px;
+ 	height:33px;
+ 	text-align: center;
+ 	cursor:pointer;
+ 	margin-left: 3%;
+ 	border:2px solid rgba(190,190,190);
+ 	color:rgba(190,190,190);
+ }
+ .submit:hover{
+ 	background-color: red;
+ 	transition:0.5s ease;
+ 	cursor:pointer;
+ }
+.welcome{
+	font-size: 50px;
+
+}
+.somek{
+	font-size: 35px;
+	color:#00CED1	;
+
+}
+.button{
+	position: absolute;
+	top:65%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.btn{
+	border:3px solid gray;
+	padding:10px 30px;
+	color:white;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color:#FF6347;
+	color:black;
+
+}
+section{
+	
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content: center;
+	text-align:center;
+	width:100%;
+	height:700px;
+
+}
+section h1 {
+	font-size:4rem; font-weight: 200; letter-spacing: 3px;
+
+
+}
+section p{
+	font-size: 1.5rem;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+
+
+}
+.container .box{
+	position:relative;
+	width:320px;
+	padding:100px 40px 60px;
+	box-shadow: 0 5px 15px blue;
+	border-radius:2px;
+	margin:20px;
+	box-sizing:border-box;
+	overflow:hidden;
+	text-align: center;
+	opacity:1px;
+	height:300px;
+}
+html{
+scroll-behavior: smooth;
+overflow-y: scroll;
+}
+
+
